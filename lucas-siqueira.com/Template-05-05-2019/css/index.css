@@ -1,0 +1,10 @@
+/* Barra de navegação */
+nav {
+  background-color: rgba(255,255,255,0.6);
+  box-shadow: 3px -3px 5px rgba(10,10,10,0.7);
+  padding:15px;
+}
+nav > ul li {
+  display: inline;
+  padding: 0px 6%;
+}

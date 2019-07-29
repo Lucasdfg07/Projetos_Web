@@ -1,0 +1,88 @@
+img {
+  margin-top:-10px;
+  margin-left:-5px;
+}
+.nav1, .nav2 {
+  position: absolute;
+}
+.nav1 {
+  margin-left:780px;
+}
+.nav2 {
+  margin-left:950px;
+}
+.barra_navegacao ul li {
+  display: inline;
+  padding:30px;
+}
+.barra_navegacao a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+.barra_navegacao a:hover {
+  border-bottom: 2px solid rgba(200,10,10,0.8);
+}
+.active {
+  border-bottom: 2px solid rgba(200,10,10,0.8);
+}
+.whats {
+  z-index: 9999;
+  position: absolute;
+  margin-left:1240px;
+  margin-top:80px;
+}
+.whats_bottom {
+  z-index: 9999;
+  position: absolute;
+  margin-left:780px;
+  margin-top:-210px;
+}
+.DesenvolvidoPor {
+  z-index: 9999;
+  position: absolute;
+  margin-top:-50px;
+  margin-left: 1070px;
+}
+.DesenvolvidoPor img {
+  width:100px;
+  border-radius: 100%;
+}
+/* Fale Conosco */
+.formulario {
+  text-align: center;
+  font-family: cursive;
+  padding-bottom: 40px;
+}
+.page-header {
+  border-bottom: 1px solid rgba(10,10,10,0.1);
+}
+button {
+  margin-top:20px;
+  font-size: 1.1em;
+  background-color: rgba(10,10,200,0.7);
+  border: none;
+  color: white;
+  padding:10px;
+  border-radius:10px;
+  width: 150px;
+}
+.form_field {
+  margin-top:30px;
+}
+input {
+  height:20px;
+}
+input, textarea {
+  width:500px!important;
+  text-align: center;
+  border: 1px solid black;
+}
+@media (max-width: 991.98px) {
+  .formulario {
+    margin-left:300px;
+  }
+  .nav2 {
+    width:150px;
+  }
+}

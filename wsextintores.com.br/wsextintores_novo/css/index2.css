@@ -1,0 +1,133 @@
+/* Header */
+body {
+  overflow-x: none;
+}
+header {
+  background-image: linear-gradient(to bottom, rgba(100,100,100,0.1), white);
+  height:200px;
+  padding-top:20px;
+}
+.img_header img {
+  margin-left:-60px;
+}
+.telefones {
+  margin-top:60px;
+  text-align: center;
+  margin-left:50px;
+}
+.telefones img {
+  width: 30px;
+  margin-right:10px;
+  margin-top:-10px;
+}
+.telefones img, .telefones h1 {
+  display: inline;
+}
+.texto_imagem{
+  margin-top:25px;
+}
+.col-md-3 h1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+.extintores2 {
+  color: rgba(200,10,10);
+  margin-top:-30px;
+}
+/* espacamento */
+.espacamento {
+  width:90%;
+  margin-left:5%;
+}
+/* main */
+.texto_principal, .atacadista {
+  margin-top:30px;
+}
+main p {
+  font-size: 18px;
+  color: rgba(10,10,10,0.7);
+}
+.texto_inferior {
+  margin-top:20px;
+}
+.texto_inferior p {
+  font-size: 18px;
+  color: rgba(10,10,10,0.7);
+}
+.img_principal {
+  text-align: center;
+}
+.img_principal img {
+  box-shadow: 2px 2px 15px;
+}
+/* Apresentação de intens */
+main .confira_produtos {
+  margin-top:10px;
+  text-align: center;
+  padding:20px;
+  padding-bottom:20px;
+  width:100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+hr {
+  width:70%;
+}
+.imagens_item {
+  font-weight: bold;
+}
+.confira_produtos > .imagens_apresentacao {
+  margin-top:10px;
+}
+.confira_produtos > .imagens_apresentacao > .item_externo {
+  display: inline-block;
+  border-radius:10px;
+  width:20%;
+  margin:0px 30px;
+  padding:10px;
+}
+.confira_produtos > .imagens_apresentacao > .item_externo > .imagens_item img {
+  width:60%;
+}
+.confira_produtos > .imagens_apresentacao > .imagens_item img {
+  opacity: 0.8;
+}
+/* lista de serviços */
+.lista_servicos ul li {
+  display: block;
+  font-size: 17px;
+  color: rgba(10,10,10,0.7);
+}
+.lista_servicos span {
+  margin-right:10px;
+}
+/* especialidade texto */
+.especialidade {
+  margin-top:50px;
+}
+.extintor3d img{
+  position: absolute;
+  margin-left:600px;
+  margin-top:-120px;
+}
+/* contato telefone */
+.telefone {
+  margin-top:40px;
+}
+.telefone_imagem img {
+  width:80%;
+}
+.telefones_bottom h3 b {
+  margin-left:60px;
+}
+/* footer */
+footer {
+  margin-top:50px;
+  text-align: center;
+}
+footer img {
+  width:100%;
+}
+footer .col-md-8 {
+  margin-top:20px;
+}

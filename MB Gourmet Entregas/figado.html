@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>MB Gourmet</title>
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" href="favicon3.png">
+		
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/css_index.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+
+		<div id="loading" style="display: block">
+		 <img src="https://media.giphy.com/media/l41lPX79K0l6sIvni/giphy.gif" style="width:200px;height:200px;" />
+	 </div>
+
+	 <div id="conteudo" style="display:none;">
+		<nav class="navbar navbar-fixed-top navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#barra-navegacao">
+						<span class="sr-only">Alternar navegação</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a href="index.html" class="navbar-brand">
+					<span class="img-logo"><img src="Logo/cozinheiro.png" /></span></a>
+				</div>
+			
+				<div class="collapse navbar-collapse" id="barra-navegacao">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html" data-target="#home" style="color:white;"><img src="Logo/home.png" style="margin-left:2px;" /> 
+						<br />Home</a></li>
+						
+						<li><a href="index.html" data-target="#cardapio" style="color:white;"><img src="Logo/panela_talher.png" style="margin-left:10px;"/>
+						<br />Cardápios</a></li>
+						
+						<li class="divisor" role="separator"></li>
+						
+						<li><a href="index.html" data-target="#infoAdicional" style="color:white;"><img src="Logo/mais.png" style="margin-left:55px;" />
+						<br />Informações Adicionais</a></li>
+						
+						<li><a href="index.html" data-target="#formulario" style="color:white;"><img src="Logo/form.png" style="margin-left:30px;" />
+						<br />Fale Conosco</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container">
+			<div class="img_prato">
+				<img src="Pratos/figado.png" />
+				<h2 style="margin-left:35%;">Fígado Acebolado</h2>
+				<h4 style="padding-left:12%;">R$ 20,00</h4>
+			</div>
+			<div class="descricao_prato">
+				<p style="width:33%;margin-left:31%;">
+					Aquele pedido que te satisfaz a qualquer hora e em qualquer lugar.<br />
+					<i>Fígado acebolado cabe em qualquer situação.</i>
+				</p>
+			</div>
+			
+			<div class="btn_voltar">
+				<a href="cardapio.html"><span>Voltar ao Cardápio</span></a>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="col-md-1 DesenvolvidoPor">
+					<a href="http://lucas-siqueira.com/" target="_blank"
+					title="Lucas Siqueira - Desenvolvedor Web">
+
+							<div class="fundo_imagem">
+								<img src="Pratos/Logo_redonda.png">
+							</div>
+
+					</a>
+				</div>
+				
+				<div class="nav_footer col-md-3">
+					<a href="index.html" data-target="#home"><h5>Home</h5></a>
+					<a href="index.html" data-target="#cardapio"><h5>Cardápios</h5></a>
+					<a href="index.html" data-target="#infoAdicional"><h5>Informações Adicionais</h5></a>
+					<a href="index.html" data-target="#formulario"><h5>Fale Conosco</h5></a>
+				</div>
+				
+				<div class="redes_sociais col-md-7">
+					<h4><span class="glyphicon glyphicon-envelope"></span>Marcusvince@bol.com.br</h4>
+				</div>
+			</div>
+		</footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			  $(function () {
+				$('[data-toggle="tooltip"]').tooltip()
+				$('[data-toggle="popover"]').popover()
+			  })
+		  </script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="JS/load.js"></script>
+	</body>
+  
+  
+</html>

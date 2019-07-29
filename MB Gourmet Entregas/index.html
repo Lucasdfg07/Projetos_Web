@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>MB Gourmet</title>
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" href="favicon3.png">
+		
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/css_index.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body style="background-color:#F5F5F5;">
+
+		<div id="loading" style="display: block">
+		 <img src="https://media.giphy.com/media/l41lPX79K0l6sIvni/giphy.gif" style="width:200px;height:200px;" />
+	 </div>
+
+	 <div id="conteudo" style="display:none;">
+		<nav class="navbar navbar-fixed-top navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#barra-navegacao">
+						<span class="sr-only">Alternar navegação</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a href="index.html" class="navbar-brand">
+					<span class="img-logo"><img src="Logo/cozinheiro.png" /></span></a>
+				</div>
+			
+				<div class="collapse navbar-collapse" id="barra-navegacao">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home" data-target="#home" style="color:white;"><img src="Logo/home.png" style="margin-left:2px;" /> 
+						<br />Home</a></li>
+						
+						<li><a href="#cardapio" data-target="#cardapio" style="color:white;"><img src="Logo/panela_talher.png" style="margin-left:10px;"/>
+						<br />Cardápios</a></li>
+						
+						<li class="divisor" role="separator"></li>
+						
+						<li><a href="#infoAdicional" data-target="#infoAdicional" style="color:white;"><img src="Logo/mais.png" style="margin-left:55px;" />
+						<br />Informações Adicionais</a></li>
+						
+						<li><a href="#formulario" data-target="#formulario" style="color:white;"><img src="Logo/form.png" style="margin-left:30px;" />
+						<br />Fale Conosco</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="row">
+			<div class="home" id="home" style="background-image:url('Pratos/pratos_variados.jpg');">
+				<div class="container">
+					<div class="contorno col-md-9">
+						<div class="capa">
+								<div class="prat">
+                  <img src="wallpaper.png" />
+              	</div>
+
+            		<div class="prato">
+            			<img src="Pratos/wallpaper_dentro.jpg" />
+            		</div>
+            		
+            		<div class="letra">
+            			<span style="font-family:Brush Script MT, Brush Script Std, cursive">MB Gourmet</span>
+            		</div>
+            		
+            		<div class="telefone">
+            			<span style="font-family:Brush Script MT, Brush Script Std, cursive">(22) 99906-7207</span>
+            		</div>
+            		
+            		<div class="chapeu">
+            			<img src="Logo/chapeu.png" />
+            		</div>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-md-3">
+					<div class="img_row">
+						<img src="Logo/talher.png" />
+					</div>
+						<div id="accordion">
+						  <div class="card">
+							<div class="card-header" id="headingOne">
+							  <h5>
+								<button class="btn btn-success" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								  Ética <span class="glyphicon glyphicon-plus"></span>
+								</button>
+							  </h5>
+							</div>
+
+							<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+								<div class="card-body">
+									<b>Nossos princípos abrangem oferecer o maior conforto junto a um paladar excelente, para nossos clientes.</b>
+								</div>
+							</div>
+						  </div>
+						  <div class="card">
+							<div class="card-header" id="headingTwo">
+							  <h5>
+								<button class="btn btn-danger collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								 Pratos e Entrega <span class="glyphicon glyphicon-plus"></span>
+								</button>
+							  </h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+								<div class="card-body">
+									<b>Oferecemos uma maior comodidade para nossos clientes através de um serviço artesanal e sofisticado.</b>						
+								</div>
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cardapio" id="cardapio">
+					<div class="page-header">
+						<h3>Pratos Oferecidos no Cardápio</h3>
+					</div>
+					
+					<div class="comida col-md-3">
+						<a href="peitoNaCerveja.html"><div class="capa-comida">
+							<img src="Pratos/peito-de-boi.jpg" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-90px;">Peito na Cerveja com Batata</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<div class="comida col-md-3">
+						<a href="moela.html"><div class="capa-comida">
+							<img src="Pratos/moela.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-60px;">Moela na Cerveja Preta</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<div class="comida col-md-3">
+						<a href="linguica.html"><div class="capa-comida">
+							<img src="Pratos/linguiça.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-80px;">Linguiça Defumada no Feijao</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<div class="comida col-md-3">
+						<a href="figado.html"><div class="capa-comida">
+							<img src="Pratos/figado.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-50px;">Fígado Acebolado</h4>
+						<span>R$ 20,00</span></a>
+					</div>
+					
+					<div class="comida col-md-3">
+						<a href="calabresa.html"><div class="capa-comida">
+							<img src="Pratos/calabresa.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-50px;">Calabresa com Fritas</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<div class="comida col-md-3 costela">
+						<a href="costela.html"><div class="capa-comida">
+							<img src="Pratos/costela.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-50px;">Costela com Aipim</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<div class="comida col-md-3">
+						<a href="mocoto.html"><div class="capa-comida">
+							<img src="Pratos/mocoto.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-5px;">Mocotó</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<div class="comida col-md-3 kibe">
+						<a href="kibe.html"><div class="capa-comida">
+							<img src="Pratos/kibe_cru.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-10px;">Kibe Cru</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<div class="comida col-md-4 sairu" style="margin-top:-10px;">
+						<a href="sairu.html"><div class="capa-comida">
+							<img src="Pratos/sairu.png" data-toggle="tooltip" data-placement="top" title="Clique aqui para visualizar o perfil do prato!" />
+						</div>
+						<h4 style="margin-left:-10px;">Sairú Frito</h4>
+						<span>R$ 25,00</span></a>
+					</div>
+					
+					<a href="cardapio.html"><button class="btn btn-primary" style="height:35px;width:150px;">Ver Mais</button></a>
+				</div>
+				
+				<div class="infoAdicional col-md-12" id="infoAdicional">
+					<div class="page-header">
+						<h2>Informações Adicionais</h2>
+					</div>
+					
+					<div class="col-md-8">
+						<img src="Logo/principal.jpg" />
+					</div>
+					
+					<div class="col-md-4">
+						<span>A MB Gourmet é um estabelecimento</span>
+						<span>afim de facilitar a entrega e recebimento</span>
+						<span>de pratos e alimentos, feitos especialmente</span>
+						<span>para a satisfação do cliente, junto a um</span>
+						<span>ótimo paladar.</span>
+						<br />
+						<br />
+						<span>Deseja um serviço
+						com alto custo-benefício em seu evento ou no conforto de seu sofá?</span> 
+						<br />
+						<span><b><i>Peça MB Gourmet</i></b></span>
+						
+					</div>
+				</div>
+				
+					<div class="embalagem col-md-12" id="embalagem">
+					<div class="page-header">
+						<h2>Sistema de Entrega e Embalagens</h2>
+					</div>
+					
+					<div class="col-md-4">
+						<p>O sistema de entregas é realizado por meio de embalagens
+						personalizadas pela MB Gourmet. <br /><br />
+						As embalagens são preparadas com plástico para melhor manuseio,
+						transporte, e seguridade...</p>
+						
+					</div>
+					
+					<div class="col-md-8">
+						<img src="Logo/embalagens.png" />
+						<a href="embalagem.html"><button class="btn btn-success btn-embalagens">Mais Detalhes</button></a>
+					</div>
+				</div>
+				
+				<div class="formulario col-md-12" id="formulario" align=center>
+					<div class="page-header">
+						<h2>Fale Conosco</h2>
+						<h4><i>Digite sua crítica ou mensagem para posteriores melhoras no serviço</i></h4>
+					</div>
+					
+					<form method="POST" action="phpmailer.php">
+						<label>Nome</label>
+						<input type="text" class="nome" name="nome" placeholder="Digite Seu Nome"/>
+						<br />
+						
+						<label>Email*</label>
+						<input type="email" class="email" name="email" placeholder="Insira seu Email" required />
+						<br />
+						
+						<label>Telefone</label>
+						<input type="text" class="telefone" name="telefone" placeholder="Digite o telefone de contato"/>
+						<br />
+						<br />
+						
+						<input name="ativo" type="radio" class="form_1" id="radio" 
+						onclick="if(document.getElementById('endereco').disabled==true){document.getElementById('endereco').disabled=false} if(document.getElementById('complemento').disabled==true){document.getElementById('complemento').disabled=false} if(document.getElementById('cep').disabled==true){document.getElementById('cep').disabled=false} if(document.getElementById('prato').disabled==true){document.getElementById('prato').disabled=false} if(document.getElementById('quantidade').disabled==true){document.getElementById('quantidade').disabled=false} if(document.getElementById('endereco').disabled==false){document.getElementById('endereco').disabled=false}"/><span class="span_radio"><b>Quero realizar um pedido</b></span>
+						<br />
+						
+						
+						<label>Endereço para Entrega</label>
+						<input type="text" class="endereco" id="endereco" name="endereco" placeholder="Insira seu Endereço" disabled="disabled"/>
+						<br />
+						
+						<label>Complemento</label>
+						<input type="text" class="complemento" id="complemento" name="complemento" placeholder="Insira o Complemento" disabled="disabled"/>
+						<br />
+						
+						<label>CEP</label>
+						<input type="text" class="cep" id="cep" name="CEP" placeholder="Insira o CEP" disabled="disabled"/>
+						<br />
+						
+					    <label>Prato a escolher</label>	
+						<select name="prato" id="prato" disabled="disabled">
+						<option selected></option>
+						<option>Peito na cerveja com batata</option>
+						<option>Moela na cerveja Preta</option>
+						<option>Linguiça defumada no Feijão</option>
+						<option>Fígado Acebolado</option>
+						<option>Calabresa com Fritas</option>
+						<option>Costela com Aipim</option>
+						<option>Mocotó</option>
+						<option>Kibe Cru</option>
+						<option>Sairú Frito</option>
+						</select>
+						<br />
+						
+						
+						<label>Quantidade de pedidos</label>
+						<select name="quantidade" id="quantidade" disabled="disabled">
+						<option selected></option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						</select>
+						<br />
+						
+						<label>Mensagem*</label>
+						<br />
+						<textarea type="text" name="mensagem" required></textarea>
+						<br />
+						<input type="submit" value="Enviar" class="btn-default"/>
+					</form>
+				</div>
+			</div>
+			
+			<style>
+		        .formulario {
+		            margin-left:-1%;
+		            height:900px;
+		        }
+		        form .btn-default {
+		            margin-top:30px;
+		            margin-right:10%;
+		        }
+		        label {
+		            padding-right:30px;
+		        }
+		        input {
+		            width:40%;
+		        }
+		        @media screen and (min-width: 1200px) {
+                    .nome {
+                        margin-left:110px;
+                    }
+                    .email {
+                        margin-left:110px;
+                    }
+                    .complemento {
+                        margin-left:60px;
+                    }
+                    .cep {
+                        margin-left:125px;
+                    }
+                    .telefone {
+                        margin-left:95px;
+                    }
+                    .btn-primary {
+                        margin-top:180px;
+                    }
+                    .btn-success {
+                        margin-top:30px;
+                        margin-left:65%;
+                        width:150px;
+                    }
+                    .embalagem img {
+                        margin-left:200px;
+                        border-radius: 5px;
+                        width:60%;
+                    }
+                    .embalagem {
+                        background:white;
+                        border-radius:10px;
+                        padding-bottom:50px;
+                        margin-top:100px;
+                    }
+                    .embalagem p {
+                        font-size:1.1em;
+                    }
+                    #radio {
+                        margin-right:-180px;
+                    }
+                    .span_radio {
+                        padding-right:250px
+                    }
+                    .prat img {
+        				height:350px;
+        				width:400px;
+        				border-radius:100%;
+        				margin-left:120px;
+        				margin-top:105px;
+        			}
+        			.prato {
+        				height:300px;
+        				width:300px;
+        				margin-top:30px;
+        				margin-left:200px;
+        			}
+        			.prato img {
+        				height:250px;
+        				width:280px;
+        				border-radius:100%;
+        				box-shadow:-10px 10px 100px rgba(244,244,244,0.3);
+        				margin-top:-436px;
+        				margin-left:-20px;
+        			}
+        			.letra {
+        				margin-top:-550px;
+        				margin-left:60px;
+        			}
+        			.letra span {
+        				font-size:3.7em;
+        				font-weight:900px;
+        				color:white;
+        				
+        			}
+        			.chapeu img {
+        				height:70px;
+        				width:60px;
+        				margin-top:-284px;
+        				margin-left:307px;
+        			}
+        			.telefone span {
+        				font-size:1.7em;
+        				color:white;
+        				margin-top:15px;
+        				margin-left:134px;
+        			}
+                }
+                
+                @media screen and (min-width: 992px) {
+                    
+                }
+                
+                @media screen and (max-width: 768px) {
+                    
+                }
+                
+                @media screen and (max-width: 767px) {
+                    .btn-primary {
+                        margin-left:20px;
+                    }
+                    .embalagem img {
+                        width:70%;
+                    }
+                    .btn-success {
+                        margin-top:20px;
+                    }
+                    .embalagem {
+                        background-color:white;
+                        border-radius:15px;
+                        padding-top: 1px;
+                        margin-top:30px;
+                    }
+                    #radio {
+                        margin-right:150px;
+                    }
+                    	#accordion {
+	                    	margin-left:-35%;
+	                    }
+                    .span_radio {
+                        margin-left:-150px
+                    }
+                    .formulario {
+		            height:950px;
+		            }
+		            .contorno {
+		                margin-bottom:20px;
+		            }
+		            .prat img {
+        				height:220px;
+        				width:250px;
+        				border-radius:100%;
+        				margin-left:35px;
+        				margin-top:40px;
+        				
+        			}
+        			.prato {
+        				height:220px;
+        				width:220px;
+        				margin-top:100px;
+        				margin-left:90px;
+        			}
+        			.prato img {
+        				height:150px;
+        				width:180px;
+        				border-radius:100%;
+        				box-shadow:-10px 10px 100px rgba(244,244,244,0.3);
+        				margin-top:-436px;
+        				margin-left:-20px;
+        			}
+        			.letra {
+        				margin-top:-460px;
+        			}
+        			.letra span {
+        				font-size:2.2em;
+        				font-weight:900px;
+        				color:white;
+        				
+        			}
+        			.chapeu img {
+        				height:32px;
+        				width:25px;
+        				margin-top:-170px;
+        				margin-left:147px;
+        			}
+        			.telefone span {
+        				font-size:1.0em;
+        				color:white;
+        				margin-left:114px;
+        			}
+                }
+			</style>
+		
+			 <div class="localizacao" style="margin-top:100px;">
+				  <div class="container">
+						<div class="page-header">
+							<h2>Encontre-nos pelo Mapa <span class="glyphicon glyphicon-map-marker"></span></h2>
+						</div>
+						
+						<div class="mapa">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.85360165555!2d-41.332419185055116!3d-21.747200585613644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdd45a9c70b88b%3A0xaa96840f52bc11ca!2sAv.+%E2%85%A9%E2%85%A4+de+Novembro%2C+Campos+dos+Goytacazes+-+RJ!5e0!3m2!1spt-BR!2sbr!4v1527735956637"
+							width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+				  </div>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="col-md-1 DesenvolvidoPor">
+					<a href="http://lucas-siqueira.com/" target="_blank"
+					title="Lucas Siqueira - Desenvolvedor Web">
+
+							<div class="fundo_imagem">
+								<img src="Pratos/Logo_redonda.png">
+							</div>
+
+					</a>
+				</div>
+
+				<div class="nav_footer col-md-3">
+					<a href="#home" data-target="#home"><h5>Home</h5></a>
+					<a href="#cardapio" data-target="#cardapio"><h5>Cardápios</h5></a>
+					<a href="#infoAdicional" data-target="#infoAdicional"><h5>Informações Adicionais</h5></a>
+					<a href="#formulario" data-target="#formulario"><h5>Fale Conosco</h5></a>
+				</div>
+				
+				<div class="redes_sociais col-md-7">
+					
+					<h4><span class="glyphicon glyphicon-envelope"></span>Marcusvince@bol.com.br</h4>
+				</div>
+			</div>
+		</footer>
+	</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript">
+			  $(function () {
+				$('[data-toggle="tooltip"]').tooltip()
+				$('[data-toggle="popover"]').popover()
+			  })
+		  </script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<script src="JS/load.js"></script>
+		<script src="JS/rolar.js"></script>
+
+	</body>
+  
+  
+</html>
